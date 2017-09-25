@@ -1,0 +1,21 @@
+{
+  "name": "xstream-from-mutant",
+  "version": "1.0.0",
+  "description": "Convert a mutant observable to xstream",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "prepublishOnly": "npm run compile"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.30",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "mutant": "^3.21.2",
+    "xstream": "^10.9.0"
+  }
+}

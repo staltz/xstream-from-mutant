@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "mutant": "^3.21.2",
-    "xstream": "^10.9.0"
+    "xstream": "10.x || 11.x"
   }
 }
